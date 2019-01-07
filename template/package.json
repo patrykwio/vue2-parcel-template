@@ -7,8 +7,8 @@
     "scripts": {
         "build": "parcel build index.html --out-dir build",
         "build:start": "parcel index.html --out-dir build --port 8080",
-        "build:nominify": "NODE_ENV=production parcel build index.html --no-minify",
-        "dev": "NODE_ENV=development parcel index.html",
+        "build:nominify": "cross-env NODE_ENV=production parcel build index.html --no-minify",
+        "dev": "cross-env NODE_ENV=development parcel index.html",
         "start": "npm run dev",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -16,9 +16,13 @@
     "author": "{{author}}",
     "license": "MIT",
     "dependencies": {
-        "vue": "^2.5.16"
+        "vue": "^2.5.16",
+        "axios": "0.18.0",
+        "vue-axios": "2.1.4",
+		"vue-router": "^3.0.1"
     },
     "devDependencies": {
+        "cross-env": "^5.2.0",
         "parcel-bundler": "^1.9.7",
         "parcel-plugin-vue": "^1.5.0"
     },

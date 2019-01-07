@@ -31,3 +31,11 @@ npm run dev
 ### License
 
 MIT
+
+# Requirements
+### What's in the box?
+
+- [cross-env](https://www.npmjs.com/package/cross-env) ---> set and use environment variables across platforms
+- [Parcel](https://parceljs.org)
+- [Parcel-bundler](https://github.com/parcel-bundler/parcel) 
+- [vue-cli](https://github.com/vuejs/vue-cli)
