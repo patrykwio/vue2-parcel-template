@@ -1,0 +1,28 @@
+{
+    "name": "{{name}}",
+    "version": "0.0.1",
+    "description": "{{description}}",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+
+    },
+    "keywords": ["{{keywords}}"],
+    "author": "{{author}}",
+    "license": "MIT",
+    "dependencies": {
+
+    },
+    "devDependencies": {
+
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ],
+    "engines": {
+        "node": ">= 6.0.0",
+        "npm": ">= 3.0.0"
+    }
+}
