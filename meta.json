@@ -21,6 +21,10 @@
       "type": "confirm",
       "message": "Install vue-router?"
     },
+    "axios": {
+      "type": "confirm",
+      "message": "Install axios?"
+    },
     "autoInstall": {
       "type": "list",
       "message":

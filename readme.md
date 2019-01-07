@@ -1,4 +1,9 @@
-# vue2-parcel-template (starterkit) inspired by web resources
+
+### WORKING ON IT - NOT ALL IS OK ;(
+---
+
+
+### vue2-parcel-template (starterkit) inspired by web resources
 
 ### Usage
 
