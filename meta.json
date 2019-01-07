@@ -1,0 +1,67 @@
+{
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "Project name"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "label": "Project description",
+      "default": "A VueJS project, bundled using Parcel"
+    },
+    "author": {
+      "type": "string",
+      "required": true,
+      "label": "Author",
+      "message": "author"
+    },
+    "router": {
+      "type": "confirm",
+      "message": "Install vue-router?"
+    },
+    "autoInstall": {
+      "type": "list",
+      "message":
+      "Should we run `npm install` for you after the project has been created? (recommended)",
+      "choices": [
+        {
+          "name": "Yes, use NPM",
+          "value": "npm",
+          "short": "npm"
+        },
+        {
+          "name": "Yes, use Yarn",
+          "value": "yarn",
+          "short": "yarn"
+        },
+        {
+          "name": "No, I will handle that myself",
+          "value": "false",
+          "short": "no"
+        }
+      ]
+    },
+    "license": {
+      "type": "string",
+      "label": "License",
+      "default": "MIT"
+    },
+    "keywords": {
+      "type": "string",
+      "required": true,
+      "message": "keywords"
+    },
+    "sass": {
+      "type": "confirm",
+      "message": "Use sass?",
+      "default": false
+    },
+
+    "filters": {
+      "src/router/**/*": "router"
+    }
+  },
+  "completeMessage": "{{#inPlace}}To get started:\n\n  npm install\n  npm start{{else}}To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm start{{/inPlace}}"
+}
